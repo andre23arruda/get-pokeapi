@@ -65,8 +65,10 @@ python manage.py runserver
 ```
 
 ## Após rodar, cole em seu navegador ou user um cliente para fazer requisições (Postman):
-```
+```sh
 http://127.0.0.1:8000/api/pokemon/charmander
+# ou
+http://localhost:8000/api/pokemon/charmander
 ```
 <h1 align="center">
     <img alt="Image 1" src=".github/image_1.png" width="400px" />
