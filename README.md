@@ -37,10 +37,10 @@ Ter instalado:
 
 #### No terminal, rodar
 ```sh
-# Clonar esse reposiório
+# Clonar esse repositório
 git clone https://github.com/andre23arruda/get-pokeapi
 
-# Entrar na pasta dos arquivos do backend
+# Entrar na pasta dos arquivos
 cd get-pokeapi
 
 # Criar um ambiente virtual
@@ -50,12 +50,18 @@ python3 -m venv venv
 
 # Ativar o ambiente virtual
 . activate.sh
+# ou se der errado (windows)
+. venv/Scripts/activate
+# ou se der errado (linux)
+. venv/bin/activate
 
 # Instalar os pacotes necessários
 pip install -r requirements.txt
 
 # Rodar backend
 . run.sh
+# ou (se der errado)
+python manage.py runserver
 ```
 
 ## Após rodar, cole em seu navegador ou user um cliente para fazer requisições (Postman):
