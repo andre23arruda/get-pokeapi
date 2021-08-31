@@ -1,0 +1,1 @@
+from .views import pokemon_abilities_view
